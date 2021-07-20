@@ -64,6 +64,7 @@ declare namespace FastifySessionPlugin {
      * Defaults to true. Setting this to false can be useful to save storage space and to comply with the EU cookie law.
      */
     saveUninitialized?: boolean;
+    rolling?:boolean
   }
 
   interface CookieOptions {
